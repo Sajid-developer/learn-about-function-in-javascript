@@ -1,5 +1,6 @@
 # Learn about function In JavaScript
-💡All concept about function in JavaScript.
+
+---
 
 ## 🧠 What is a Function?
 -> A function is a reusable block of code that does something when you call it.
@@ -20,7 +21,7 @@ Let’s break them down into 7 main types : 👇🏼
 1. Function Declaration (Named Function) 
 2. Function Expression 
 3. Anonymous Function 
-4. Arrow Function (ES6+) 
+4. Arrow Function (ES6+ feature) 
 5. Callback Function 
 6. Recursive Function 
 7. Immediately Invoked Function Expression (IIFE) <br>
