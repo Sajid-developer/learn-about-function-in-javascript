@@ -234,6 +234,6 @@ welcome(); // Output: Welcome, Guest
 
 # Show your support
 
-if you find this helpful for learning, please give it a star ⭐
+If you find this helpful for learning, please give it a star ⭐
 
 Thanks for reading 🙏🏼
