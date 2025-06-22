@@ -107,11 +107,37 @@ console.log(square(4)); // Output: 16
 
 💡 Key Points:
 
--> Doesn’t have its own "this" keyword (uses parent's context)
+-> Doesn’t have its own "this" keyword (uses parent's context).
 -> Cleaner and great for simple functions.
 -> Commonly used in modern code, like React or Angular.
 
 ________________________________________________________________________________
+
+
+5. Callback Function ✅
+
+-> A function that is passed as an argument to another function. The main function calls back the passed    function when needed.
+
+// example 👇🏼
+function greeting(){
+  console.log("Welcome to JavaScript!");
+}
+
+function greetUser(name, callback) {
+  console.log("Hi " + name);
+  callback(); // this is the callback function
+}
+
+greetUser("Sajid", greeting);
+
+
+💡 Key Points:
+
+-> Great for asynchronous operations.
+-> Very common in JavaScript (e.g. event handling, API calls).
+
+__________________________________________________________________________
+
 
 
 
