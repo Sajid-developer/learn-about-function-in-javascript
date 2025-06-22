@@ -48,6 +48,24 @@ sayHello(); // Calls the function
 _________________________________________________________________________________
 
 
+2. Function Expression ✅
+
+-> A function is created and stored inside a variable (function becomes a value).
+
+// example 👇🏼
+const greet = function() {
+  console.log("Hi there!");
+};
+greet(); // Output: Hi there!
+
+
+✅ Key Points:
+
+-> Function has no name, it's assigned to a variable.
+-> Not hoisted — you must define it before using it.
+-> Good for assigning functions to variables dynamically.
+
+
 
 
 
