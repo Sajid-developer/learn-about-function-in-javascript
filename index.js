@@ -139,6 +139,28 @@ greetUser("Sajid", greeting);
 __________________________________________________________________________
 
 
+6. Recursive Function ✅
+
+-> A function that calls itself from inside its own code. Useful for tasks that repeat 
+until a condition is met.
+
+// example 👇🏼
+function countDown(n) {
+  if (n <= 0) return; // stopping condition
+  console.log(n);
+  countDown(n - 1); // calls itself
+}
+
+countDown(3); // Output: 3, 2, 1
+
+
+💡 Key Points:
+
+-> Needs a base case to stop recursion.
+-> Used for loops, tree traversal, and repeating tasks.
+
+_________________________________________________________________________
+
 
 
 
