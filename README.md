@@ -7,12 +7,10 @@
 
 ```javascript 
 
-
 function sayHello() {
   console.log("Hello Sajid!");
 }
 sayHello(); // Output: Hello Sajid!
-
 
 ```
 
