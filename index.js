@@ -162,6 +162,42 @@ countDown(3); // Output: 3, 2, 1
 _________________________________________________________________________
 
 
+7. Immediately Invoked Function Expression (IIFE) ✅
+
+-> A function that runs automatically right after it’s defined.
+
+// example 👇🏼
+(function() {
+  console.log("This function runs instantly!");
+})();
+
+
+💡 Key Points:
+
+-> Wrapped in () and called right away with ().
+-> Used to avoid polluting global scope.
+-> Great for initializing code once.
+
+___________________________________________________________________
+
+So this is all about "function" in javascript, there is also one more thing 
+to know here about is: 
+
+🧪 Default Parameters ☑️
+
+-> This is a default value which can be set as default parameter value in function
+
+// example 👇🏼
+function welcome(name = "Guest") {
+  console.log("Welcome, " + name);
+}
+
+welcome(); // Output: Welcome, Guest
+
+________________________________________________________________
+
+Thanks for reading 🙏🏼
+
 
 
 
