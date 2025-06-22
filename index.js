@@ -87,10 +87,31 @@ setTimeout(function() {
 ____________________________________________________________________________
 
 
+4. Arrow Function (ES6+ feature) ✅
+
+-> Short and modern way to write functions. No "function" keyword and no "this" binding.
+
+// example 👇🏼
+const add = (a, b) => {
+  return a + b;
+};
+
+console.log(add(2, 3)); // Output: 5
 
 
+🔹 If the function returns only one value, you can also write it in one line:
+
+const square = x => x * x;
+console.log(square(4)); // Output: 16
 
 
+💡 Key Points:
+
+-> Doesn’t have its own "this" keyword (uses parent's context)
+-> Cleaner and great for simple functions.
+-> Commonly used in modern code, like React or Angular.
+
+________________________________________________________________________________
 
 
 
