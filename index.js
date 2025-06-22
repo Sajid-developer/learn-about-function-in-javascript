@@ -59,11 +59,35 @@ const greet = function() {
 greet(); // Output: Hi there!
 
 
-✅ Key Points:
+💡 Key Points:
 
 -> Function has no name, it's assigned to a variable.
 -> Not hoisted — you must define it before using it.
 -> Good for assigning functions to variables dynamically.
+
+______________________________________________________________________________
+
+
+3. Anonymous Function ✅
+
+-> A function without a name — used on the spot, usually as a callback.
+
+// example 👇🏼
+setTimeout(function() {
+  console.log("Hello after 2 seconds");
+}, 2000);
+
+
+💡 Key Points:
+
+-> Doesn’t have a name.
+-> Can’t be reused later unless stored in a variable.
+-> Often used in events, timeouts, etc.
+
+____________________________________________________________________________
+
+
+
 
 
 
