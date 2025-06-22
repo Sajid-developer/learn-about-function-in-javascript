@@ -214,7 +214,7 @@ countDown(3); // Output: 3, 2, 1
 So this is all about "function" in javascript, there is also one more thing 
 to know here about is: 
 
-##🧪 Default Parameters ☑️
+## 🧪 Default Parameters ☑️
 
 -> This is a default value which can be set as default parameter value in function
 
@@ -232,5 +232,7 @@ welcome(); // Output: Welcome, Guest
 ---
 
 # Show your support
+
 if you find this helpful for learning, please give it a star ⭐
+
 Thanks for reading 🙏🏼
